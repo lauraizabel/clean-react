@@ -1,8 +1,8 @@
-import { HttpPostClientSpy } from "../../test/mock-http-client";
+import { HttpPostClientSpy } from "@/data/test/mock-http-client";
 import { RemoteAuhentication } from "./remove-authentication";
 
 import faker from "faker";
-import { mockAuthentication } from "../../../domain/test/mock-authentication";
+import { mockAuthentication } from "@/domain/test/mock-authentication";
 
 type SutTypes = {
   sut: RemoteAuhentication;
