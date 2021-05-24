@@ -1,7 +1,7 @@
 import faker from "faker";
 
 import { HttpPostClientSpy } from "@/data/test/mock-http-client";
-import { RemoteAuhentication } from "./remove-authentication";
+import { RemoteAuhentication } from "./remote-authentication";
 import { mockAuthentication } from "@/domain/test/mock-authentication";
 import { InvalidCredentialsError } from "@/domain/errors/invalid-credentials-error";
 import { HttpStatusCode } from "@/data/protocols/http/http-response";
